@@ -4,8 +4,8 @@ jobs:
   First-Job:
     runs on: ubuntu-latest
     steps:
-      name: Print Message
-      run: echo "Hello world"
+      - name: Print Message
+        run: echo "Hello world"
     
     
     
